@@ -2,6 +2,7 @@
 layout: post
 title: Using rsync on sparse Virtual Machine disk images.
 created: 1254830924
+permalink: rsync-vm-sparse-inplace-kvm-vmware
 ---
 <strong>Background</strong>
 
