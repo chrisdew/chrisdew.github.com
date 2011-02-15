@@ -16,10 +16,10 @@ html, body {height: 100%;}
 #wrap {min-height: 100%;}
 
 #main {overflow:auto;
-    padding-bottom: 70px;}  /* must be same height as the footer */
+    padding-bottom: 0px;}  /* must be same height as the footer */
 
 #footer {position: relative;
-    margin-top: -70px; /* negative value of footer height */
+    margin-top: -0px; /* negative value of footer height */
     height: 20px;
     clear:both;} 
 
