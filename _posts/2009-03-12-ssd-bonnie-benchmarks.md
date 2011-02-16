@@ -2,6 +2,7 @@
 layout: post
 title: SSD Bonnie++ Benchmarks
 created: 1236889589
+permalink: ssd-bonnie-benchmark-ocz-vertex-samsung.html
 ---
 I've been in the fortunate position to test a couple of SSDs recently.  To round things off, I've also included results for a standard 7,200rpm SATA disk and a USB key.
 

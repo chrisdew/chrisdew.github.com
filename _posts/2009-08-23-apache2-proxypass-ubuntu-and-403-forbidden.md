@@ -2,6 +2,7 @@
 layout: post
 title: Apache2, ProxyPass, Ubuntu and 403 Forbidden
 created: 1251026222
+permalink: apache2-proxypass-ubuntu-403-forbidden.html
 ---
 I have spent an hour figuring this one out - I wanted to allow a couple of specific URLs on this website to be proxied through to another webserver, but I kept getting 403 Forbidden errors and no useful log output.
 

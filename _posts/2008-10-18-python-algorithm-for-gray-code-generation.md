@@ -2,6 +2,7 @@
 layout: post
 title: Python algorithm for Gray Code generation.
 created: 1224348655
+permalink: python-grey-code-algorithm.html
 ---
 <a href='http://en.wikipedia.org/wiki/Gray_code'>Gray code</a> is a sequence of binary values where <em>only one bit</em> changes state as the we go up through the sequence.  It is also known as reflected binary code.
 

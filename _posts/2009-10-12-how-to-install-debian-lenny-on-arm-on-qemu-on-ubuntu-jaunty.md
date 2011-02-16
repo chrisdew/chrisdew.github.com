@@ -2,6 +2,7 @@
 layout: post
 title: How to install Debian Lenny on ARM on Qemu on Ubuntu Jaunty.
 created: 1255376365
+permalink: howto-install-debian-lenny-arm-qemu-ubuntu-jaunty.html
 ---
 The hosting environment is assumed to be Ubuntu Jaunty, with qemu already installed.
 

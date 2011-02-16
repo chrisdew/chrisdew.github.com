@@ -2,7 +2,7 @@
 layout: post
 title: Redmine, git and the post-commit / post-receive hook.
 created: 1226832619
-permalink: redmine-git-post-receive.html
+permalink: remine-git-post-receive.html
 ---
 Recently I submitted a <a href='http://www.redmine.org/issues/show/2192'>bug</a> report to Redmine.
 

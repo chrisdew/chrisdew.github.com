@@ -2,6 +2,7 @@
 layout: post
 title: "The Ultimate Budget Desktop Replacement for \xC2\xA3624?  Dell Vostro 1710 with Ubuntu 8.10 x86_64 review."
 created: 1237046722
+permalink: dell-vostro-1710-linux-ubuntu-x86-64-review.html
 ---
 I recently purchased a Dell Vostro 1710 17" laptop, with 2.1GHz Core2 Duo, 4GB RAM and 1920x1200 display for £624 + VAT.  
 

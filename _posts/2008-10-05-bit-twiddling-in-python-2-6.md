@@ -2,6 +2,7 @@
 layout: post
 title: Bit-twiddling in Python 2.6
 created: 1223189898
+permalink: bit-twiddling-python.html
 ---
 Bit manipulation, or bit-twiddling, has always been possible in Python.  The only problem was that there was no built-in support for displaying numbers in binary format. <a href="http://www.python.org/download/releases/2.6/">Python 2.6</a> <a href="http://docs.python.org/whatsnew/2.6.html#pep-3127-integer-literal-support-and-syntax">fixes this</a>.  
 

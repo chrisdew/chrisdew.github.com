@@ -2,6 +2,7 @@
 layout: post
 title: How to synchronise a block device to another block device.
 created: 1226148833
+permalink: synchronise-block-devices.html
 ---
 Context: Fedora 9 and Ubuntu 8.10.
 

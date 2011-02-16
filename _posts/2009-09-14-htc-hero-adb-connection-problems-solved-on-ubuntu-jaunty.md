@@ -2,6 +2,7 @@
 layout: post
 title: HTC Hero adb connection problems solved on Ubuntu Jaunty.
 created: 1252957374
+permalink: htc-hero-android-adb-0bb4-0c01-ubuntu-jaunty-0bb4-0c02-problem.html
 ---
 <strong>Problem</strong>
 I recently bought an HTC Hero android phone on Orange UK, but couldn't get <code>adb</code> to list it.

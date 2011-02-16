@@ -2,6 +2,7 @@
 layout: post
 title: UDP Echo Server in Scala
 created: 1265450454
+permalink: udp-echo-server-scala.html
 ---
 The UDP Echo Server seems to be the 'hello world' of network programming.
 
