@@ -9,6 +9,7 @@ All the Linux/C error codes are listed below.
 I occasionally google C error codes, but always end up grepping through /usr/include to find the answer (on Ubuntu 8.10).  To save myself, and a few others, some time in the future...
 
 <strong>/usr/include/asm-generic/errno-base.h</strong>
+
     #ifndef _ASM_GENERIC_ERRNO_BASE_H
     #define _ASM_GENERIC_ERRNO_BASE_H
 
@@ -52,6 +53,7 @@ I occasionally google C error codes, but always end up grepping through /usr/inc
 
 
 <strong>/usr/include/asm-generic/errno.h</strong>
+
     #ifndef _ASM_GENERIC_ERRNO_H
     #define _ASM_GENERIC_ERRNO_H
 
