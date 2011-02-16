@@ -59,10 +59,10 @@
         <section id="content">
           <article>
             <header>
-              <h1>{{ post.title }}</h1>
+              <h1>{{ page.title }}</h1>
             </header>
-              {{ post.content }}
-            <em>Posted on {{ post.date | date_to_long_string }}.</em>
+              {{ content }}
+            <em>Posted on {{ page.date | date_to_long_string }}.</em>
           </article>
         </section>
       </div>
