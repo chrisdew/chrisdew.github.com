@@ -2,6 +2,7 @@
 layout: post
 title: How to undelete any open, deleted file on linux.
 created: 1235134903
+permalink: undelete-open-file-from-inode.html
 ---
 <strong>Introduction</strong>
 
