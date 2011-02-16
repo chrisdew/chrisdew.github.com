@@ -2,7 +2,7 @@
 layout: post
 title: errno.h - C Error Codes in Linux
 created: 1237560381
-slug: c-error-codes-include-errno
+permalink: c-error-codes-include-errno.html
 ---
 All the Linux/C error codes are listed below.
 
