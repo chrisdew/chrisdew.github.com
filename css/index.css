@@ -97,3 +97,6 @@ article p {
 .grey {
 	color: #777;
 }
+img.portrait {
+	margin-right: 10px;
+}
