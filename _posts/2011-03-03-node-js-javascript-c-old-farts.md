@@ -11,9 +11,9 @@ Firstly my background:
 I'm an old fart (36).  I have been coding in C for 14 years on and off.  I know sockets and I have written a kernel module.  (I also use Java, Python, C++ and Javascript professionally, and play around with Haskell and Scheme.)
 
 An Old Fart uses NodeJS.
-----------------------------
+------------------------
 
-I am using NodeJS, in preference to C for my current project, [xlocate.net](http://www.xlocate.net).
+I chose NodeJS, in preference to C, for essential parts of our current project, [xlocate.net](http://www.xlocate.net) almost a year ago.
 
 Why?
 ----
