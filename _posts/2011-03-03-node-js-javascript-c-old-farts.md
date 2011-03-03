@@ -39,6 +39,8 @@ NodeJS makes it possible for a script kiddie to create a server app **without ev
 The memory footprint may be 100 times greater than the same thing written in C 
 nd the speed may be a tenth of a well-written C program.  But, it will work reliably and without causing too much load on a modern server.
 
+This allows them to deliver **more value** to their customers **more quickly**.
+
 Bitter?
 -------
 
