@@ -10,12 +10,13 @@ Thanks to my very understanding wife, I will be working on Chris' Big Idea&trade
 Rules for Internet Startup
 --------------------------
 
+- Prepare by reading every link on [Hacker News](http://news.ycombinator.com).  Tick.
 - Have a grandiose, multi-million user idea.  Tick.
 - Choose to use unfamiliar, bleeding edge technologies.  Tick.
 - No previous experience in running a company.  Tick.
 - Be wildly optimistic and mildly delusional.  Tick.
 
-If anyone else wants to play Internet Startup during the Long Week, [email me](/contact) or tag your tweets with #LongWeek.
+If anyone else wants to play Internet Startup during the Long Week, [email me](mailto:longweek@barricane.com) or tag your tweets with #LongWeek.
 
 
 
