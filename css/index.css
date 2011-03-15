@@ -24,6 +24,9 @@ body {
 	background-image: url(/images/dappled-left200.png);
 	background-repeat: repeat-y;
 }
+#middle {
+	width: 900px;
+}
 #content {
 	float: left;
 }
