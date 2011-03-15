@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Long Week Startups - Friday April 22th to Sunday May 2nd
+title: Long Week Startups - Friday April 22nd to Sunday May 2nd
 ---
 
 I've had several emails from people interested in Long Week Startups.  These

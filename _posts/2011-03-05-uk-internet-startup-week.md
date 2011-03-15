@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Long Week Startup - Friday April 22th to Sunday May 2nd
+title: Long Week Startup - Friday April 22nd to Sunday May 2nd
 ---
 
 Due to Easter and the Royal Wedding, software developers in the UK have an unrivalled opportunity to devote 11 whole days to playing **Internet Startup**.  This only costs us three days' leave from our real jobs while making it an almost certainty that we create the next Google or Facebook.  In a week.
