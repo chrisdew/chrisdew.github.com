@@ -31,12 +31,15 @@ body {
 	background-repeat: repeat-y;
 }
 #middle {
-	width: 900px;
+/*
+		width: 900px;
+		*/
 }
 #content {
 	float: left;
 }
 #nav {
+	float: left;
 }
 #nav li {
 	display: block;
