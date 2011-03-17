@@ -81,7 +81,7 @@ article {
     -webkit-box-shadow: 5px 5px 5px #ccc;
     box-shadow: 5px 5px 5px #ccc;
     margin-bottom: 10px;
-    width: 600px;
+    max-width: 600px;
     behavior: url(/pie/PIE.htc);
 }
 article h1 {
