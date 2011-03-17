@@ -1,3 +1,9 @@
+// target mobile devices  
+@media only screen and (max-device-width: 480px) {  
+    body { max-width: 100%; }  
+    color: red;
+}  
+
 body {
 	background: #eee;
 	color: #444;
