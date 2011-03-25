@@ -1,5 +1,5 @@
 #middle {
-	width: 100%;
+	width: 100% !important;
 }
 article {
 	padding: 10px 20px;
@@ -8,14 +8,14 @@ article {
     -webkit-box-shadow: 5px 5px 5px #ccc;
     box-shadow: 5px 5px 5px #ccc;
     margin-bottom: 10px;
-    width: 90%;
+    width: 90%  !important;
 }
 #wrap {
-	background-image: none;
-	background-repeat: none;
+	background-image: none !important;
+	background-repeat: none !important;
 }
 #nav {
-    width: 100%;
+    width: 100% !important;
     float: left;
     font-family: 'Ubuntu', serif;
     font-size: 18px;
