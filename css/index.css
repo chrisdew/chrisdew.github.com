@@ -1,3 +1,9 @@
+// target mobile devices  
+@media only screen and (max-device-width: 480px) {  
+    body { max-width: 100%; color: red !important; }  
+    
+}  
+
 body {
 	background: #eee;
 	color: #444;
@@ -31,6 +37,7 @@ body {
 	float: left;
 }
 #nav {
+	float: left;
 }
 #nav li {
 	display: block;
@@ -66,6 +73,7 @@ a {
 
 #content {
 	padding: 10px;
+	float: left;
 }
 
 article {
@@ -75,7 +83,7 @@ article {
     -webkit-box-shadow: 5px 5px 5px #ccc;
     box-shadow: 5px 5px 5px #ccc;
     margin-bottom: 10px;
-    width: 600px;
+    max-width: 600px;
     behavior: url(/pie/PIE.htc);
 }
 article h1 {
