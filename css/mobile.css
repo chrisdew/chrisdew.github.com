@@ -10,3 +10,19 @@ article {
     margin-bottom: 10px;
     width: 90%;
 }
+#wrap {
+	background-image: none;
+	background-repeat: none;
+}
+#nav {
+    width: 100%;
+    float: left;
+    font-family: 'Ubuntu', serif;
+    font-size: 18px;
+}
+#nav a {
+	display: block;
+    padding: 10px 20px;
+    text-align: right;
+    color: #aaf;
+}
