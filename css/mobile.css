@@ -1,28 +1,12 @@
 #middle {
-	width: 100% !important;
+    width: 100%;
 }
 article {
-	padding: 10px 20px;
-	background: #fff;
-	-moz-box-shadow: 5px 5px 5px #ccc;
+    padding: 10px 20px;
+    background: #fff;
+    -moz-box-shadow: 5px 5px 5px #ccc;
     -webkit-box-shadow: 5px 5px 5px #ccc;
     box-shadow: 5px 5px 5px #ccc;
     margin-bottom: 10px;
-    width: 90%  !important;
-}
-#wrap {
-	background-image: none !important;
-	background-repeat: none !important;
-}
-#nav {
-    width: 100% !important;
-    float: left;
-    font-family: 'Ubuntu', serif;
-    font-size: 18px;
-}
-#nav a {
-	display: block;
-    padding: 10px 20px;
-    text-align: right;
-    color: #aaf;
+    width: 90%;
 }
