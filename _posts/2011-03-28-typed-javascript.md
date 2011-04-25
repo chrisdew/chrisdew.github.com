@@ -10,6 +10,7 @@ A new language - Typed Javascript
 ---------------------------------
 
 Features:
+
 * All correct Javascript programmes are correct Typed Javascript programmes. 
 * Typed Javascript has optional types (perhaps in comments, as per Google 
   Closure, perhaps postfix as example below).
