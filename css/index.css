@@ -30,8 +30,11 @@ body {
     font-family: 'Ubuntu', serif;
     font-size: 18px;
 }
-#wrap {
+
+#main {
 	overflow: hidden;
+}
+#wrap {
     position: relative;
     background-image: url(/images/dappled-left200.png);
     background-repeat: repeat-y;
