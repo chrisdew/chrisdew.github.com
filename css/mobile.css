@@ -5,6 +5,9 @@ body {
 span.title_continuation {
 	display: none;
 }
+#nav {
+	width: 100%;
+}
 #nav li {
     display: inline;
     float: none;
@@ -23,4 +26,8 @@ span.title_continuation {
 }
 #middle {
 	width: auto;
+}
+#wrap {
+    position: relative;
+    background-image: none;
 }
