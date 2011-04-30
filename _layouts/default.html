@@ -44,7 +44,8 @@
   <script type="text/javascript">
     $(document).ready(function() {
       // highlight the current page on the nav menu
-      $('#nav>ul>li>a[href*="tomers"]').addClass('current');
+      var path = document.location.href.split("www.barricane.com")[1];
+      $('#nav>ul>li>a[href*="' + path + '"]').addClass('current');
     });
   </script>
 <!--  <script>
@@ -73,7 +74,7 @@ $(function() {
   <div id="wrap">
     <div id="main">
       <header id="header">
-         <h1>barricane</h1>
+         <h1>barricane <span class="title_continuation">technology ltd.</span></h1>
       </header>    
       <div id="middle" class="clearfix">
         <nav id="nav">
