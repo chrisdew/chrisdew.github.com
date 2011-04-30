@@ -33,7 +33,6 @@
   -->
   <link media="only screen and (max-width: 480px) and (min-width: 320px)" href="/css/mobile.css" type="text/css" rel="stylesheet" />
   <link  href="//fonts.googleapis.com/css?family=Ubuntu:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css" >
-  <link  href="//fonts.googleapis.com/css?family=Lobster:regular" rel="stylesheet" type="text/css" >
   
   <!-- Uncomment if you are specifically targeting less enabled mobile browsers
   <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2">  -->
@@ -52,6 +51,17 @@
       $("#curr_year").html("-" + currYear);
     });
   </script>
+  <script type='text/javascript'>
+    WebFontConfig = {
+    google: { families: [ 'Ubuntu' ] },
+    active: function() {
+      $('h1, h2, h3').css({'visibility':'visible';});
+      $(document).ready(function() {
+        $('h1, h2, h3').css({'visibility':'visible';});
+      });
+    }
+  };
+</script>
 <!--  <script>
 function adjustStyle(width) {
     width = parseInt(width);
