@@ -46,6 +46,10 @@
       // highlight the current page on the nav menu
       var path = document.location.href.split("www.barricane.com")[1];
       $('#nav>ul>li>a[href="' + path + '"]').addClass('current');
+      
+      // fix the copyright statement
+      var currYear = (new Date()).getYear();
+      $("#curr_year").html("-" + currYear);
     });
   </script>
 <!--  <script>
@@ -93,16 +97,12 @@ $(function() {
     </div>
   </div> <!--! end of #container -->
   <footer id="footer">
-    <p>Copyright &copy; 2010<span class="curr_year"></span> Barricane Technology Ltd., All Rights Reserved.</p>
+    <p>Copyright &copy; 2010<span id="curr_year"></span> Barricane Technology Ltd., All Rights Reserved.</p>
   </footer>
 
 
   <!-- Javascript at the bottom for fast page loading -->
 
-  <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.4.2.js"%3E%3C/script%3E'))</script>
-  
   
   <!-- scripts concatenated and minified via ant build script-->
   <script src="js/plugins.js"></script>
