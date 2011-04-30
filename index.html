@@ -1,23 +1,41 @@
 ---
 layout: default
-title: Home
+title: Barricane Technology Ltd.
 ---
 
 <article>
   <header>
-    <h1>Welcome to Barricane.</a></h1>
+    <h1>What can we do to help you?</h1>
+    <p>
+      We are a software and internet services company.  We specialise in small,
+      low-cost projects, of typically ten hours or less.
+    </p>
+    <h2>Why hire Barricane, rather than my boss's mate's nephew?</h2>
+    <p>
+      Professionalism.
+    </p>
+    <p>
+      This is what we do.  We won't go off travelling and leave you in the 
+      lurch.  We don't finish university and are suddenly no longer able to work for you.  All of our software developers have at least ten years experience
+      in the software industry.
+    </p>
+    <p>All the work which Barricane does for its customers
+      is fully managed with version control and a ticketing system.  We make our
+      ticketing system available to you, so that you can track our progress on
+      your project.  
+    </p>
+    <h2>Why hire Barricane, rather than a far-eastern freelancer?</h2>
+    <p>
+      We're UK based.  If you like, we can visit you to discuss your requirements.
+    </p>
+    <p>
+      Our UK timezone and our extended working day, allows us to be available 
+      for the whole of the East and West coast US working days.
+    </p>
+    <h2>Why hire Barricane, rather than IBM?</h2>
+    <p>
+      Did we say we specialised in small projects?
+    </p>
   </header>
-  <p>
-    We hope you will find what you are looking for.
-  </p>
 </article>
 
-{% for post in site.posts limit:5 %}
-<article>
-  <header>
-    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-  </header>
-    {{ post.content }}
-  <em>Posted on {{ post.date | date_to_long_string }}.</em>
-</article>
-{% endfor %}
