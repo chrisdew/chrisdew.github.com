@@ -17,7 +17,7 @@ span.title_continuation {
 }
 #nav a {
     display: inline;
-    width: auto;
+    width: 150px;
     padding: 10px 10px;
     border-bottom: none;
     text-align: left;
