@@ -1,12 +1,5 @@
-#middle {
-    width: 100%;
+body {
+	width: 100%;
+	color: #f00;
 }
-article {
-    padding: 10px 20px;
-    background: #fff;
-    -moz-box-shadow: 5px 5px 5px #ccc;
-    -webkit-box-shadow: 5px 5px 5px #ccc;
-    box-shadow: 5px 5px 5px #ccc;
-    margin-bottom: 10px;
-    width: 90%;
-}
+
