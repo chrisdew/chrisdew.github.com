@@ -1,6 +1,7 @@
 body {
-    background: #eee;
+    background: #ddd;
     color: #444;
+	width: 100%;
 }
 #header, #footer {
     background-image: url(/images/dappled-100.png);
