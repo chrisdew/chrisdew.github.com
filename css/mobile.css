@@ -12,12 +12,11 @@ span.title_continuation {
     padding-bottom: 10px;
 }
 #nav li {
-    display: block;
+    display: inline;
     float: left;
 }
 #nav a {
-    display: block;
-    width: 80px;
+    display: inline;
     padding: 10px 5px;
     border-bottom: none;
     text-align: left;
