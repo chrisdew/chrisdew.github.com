@@ -5,4 +5,19 @@ body {
 span.title_continuation {
 	display: none;
 }
-
+#nav li {
+    display: inline;
+    float: none;
+}
+#nav a {
+    display: inline;
+    width: auto;
+    padding: 10px 20px;
+    border-bottom: none
+    text-align: left;
+    
+    color: #aaf;
+}
+#nav li:first-child > a {
+    border-top: none;
+}
