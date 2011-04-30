@@ -2,4 +2,7 @@ body {
 	width: 100%;
 	color: #f00;
 }
+span.title_continuation {
+	display: none;
+}
 
