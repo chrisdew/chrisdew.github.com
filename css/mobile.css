@@ -19,12 +19,14 @@ span.title_continuation {
     display: inline;
     padding: 10px 5px;
     border-bottom: none;
+    border-left: 1px solid #777;
     text-align: left;
     
     color: #aaf;
 }
 #nav li:first-child > a {
     border-top: none;
+    border-left: none;
 }
 #middle {
 	width: auto;
