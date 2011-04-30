@@ -37,6 +37,7 @@ body {
 }
 #middle {
     width: 860px;
+    overflow: hidden;
 }
 #content {
     float: left;
