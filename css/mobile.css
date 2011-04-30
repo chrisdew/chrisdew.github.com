@@ -13,10 +13,10 @@ span.title_continuation {
 }
 #nav li {
     display: inline;
-    float: none;
+    float: left;
 }
 #nav a {
-    display: inline;
+    display: block;
     width: 150px;
     padding: 10px 10px;
     border-bottom: none;
@@ -36,7 +36,7 @@ span.title_continuation {
 }
 
 article {
-    padding: 10px 2%;
+    padding: 10px 4%;
     background: #fff;
     -moz-box-shadow: 5px 2% 5px #ccc;
     -webkit-box-shadow: 5px 2% 5px #ccc;
