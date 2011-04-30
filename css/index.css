@@ -51,6 +51,9 @@ body {
 #nav a:hover {
     color: #fff;
 }
+#nav a.current {
+	color: #fff;
+}
 /*
 #nav a:hover {
     background: #fff;
