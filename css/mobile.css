@@ -8,6 +8,8 @@ span.title_continuation {
 #nav {
 	width: 100%;
     background-image: url(/images/dappled-100.png);
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 #nav li {
     display: inline;
