@@ -12,7 +12,7 @@ span.title_continuation {
     padding-bottom: 10px;
 }
 #nav li {
-    display: inline;
+    display: block;
     float: left;
 }
 #nav a {
