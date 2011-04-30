@@ -31,7 +31,7 @@
   <!--
   <link id="size-stylesheet" rel="stylesheet" href="/css/desktop.css">
   -->
-  <link media="only screen and (max-width: 600px)" href="/css/mobile.css" type="text/css" rel="stylesheet" />
+  <link media="only screen and (max-width: 768px)" href="/css/mobile.css" type="text/css" rel="stylesheet" />
   <link  href="//fonts.googleapis.com/css?family=Ubuntu:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css" >
  
   <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
@@ -48,24 +48,6 @@
       $("#curr_year").html("-" + currYear);
     });
   </script>
-<!--  <script>
-function adjustStyle(width) {
-    width = parseInt(width);
-    if (width < 481) {
-        $("#size-stylesheet").attr("href", "css/mobile.css");
-    } else {
-       $("#size-stylesheet").attr("href", "css/desktop.css");
-    }
-}
-
-$(function() {
-    adjustStyle($(this).width());
-    $(window).resize(function() {
-        adjustStyle($(this).width());
-    });
-});
-  </script>
--->
 
 </head>
 
