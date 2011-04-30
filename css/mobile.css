@@ -34,3 +34,14 @@ span.title_continuation {
     position: relative;
     background-image: none;
 }
+
+article {
+    padding: 10px 2%;
+    background: #fff;
+    -moz-box-shadow: 5px 2% 5px #ccc;
+    -webkit-box-shadow: 5px 2% 5px #ccc;
+    box-shadow: 5px 2% 5px #ccc;
+    margin-bottom: 10px;
+    width: 88%;
+    behavior: url(/pie/PIE.htc);
+}
