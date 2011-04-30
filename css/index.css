@@ -115,6 +115,10 @@ article p {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+article ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 #footer {
     font-family: 'Ubuntu', serif;
