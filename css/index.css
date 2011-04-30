@@ -92,13 +92,19 @@ article {
 article h1 {
     font-family: 'Ubuntu', serif;
     font-size: 18px;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
 }
 article h2 {
     font-family: 'Ubuntu', serif;
     font-size: 18px;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+article h3 {
+    font-family: 'Ubuntu', serif;
+    font-size: 18px;
+    margin-top: 15px;
     margin-bottom: 10px;
 }
 article p {
