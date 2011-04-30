@@ -21,3 +21,6 @@ span.title_continuation {
 #nav li:first-child > a {
     border-top: none;
 }
+#middle {
+	width: auto;
+}
