@@ -31,13 +31,13 @@ body {
     font-size: 18px;
 }
 #wrap {
+	overflow: hidden;
     position: relative;
     background-image: url(/images/dappled-left200.png);
     background-repeat: repeat-y;
 }
 #middle {
     width: 860px;
-    overflow: hidden;
 }
 #content {
     float: left;
