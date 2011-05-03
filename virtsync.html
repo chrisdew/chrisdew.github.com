@@ -1,0 +1,53 @@
+---
+layout: default
+title: VirtSync - synchronizing large, sparse, virtual machine disk images.
+---
+
+<article>
+  <header>
+    <h1>VirtSync</h1>
+  </header>
+  <p>
+    VirtSync is an rsync-like command line tool for synchronizing large, sparse, virtual machine disk images.
+  </p>
+  <h2>
+    Why use sparse virtual machine disk images?
+  </h2>
+  <p>
+    Using <a href="http://en.wikipedia.org/wiki/Sparse_file">sparse files</a> for Virtual machine disk images can result in huge space savings.  A 100GB VM disk, which is 5% full will only use 5GB of disk space as a sparse file, but 100GB if the disk image file is not sparse.
+  </p>
+  <h2>
+    What does VirtSync do that rsync can't?
+  </h2>
+  <p>
+    rsync does not allow the 'sparse' and 'inplace' switches to be used together.  You must choose between:
+  </p>
+  <ul>
+    <li>sparse - this allows large-sized files to occupy a small amount of disk space, but the file is wastefully rewritten to disk each time.</li>
+    <li>inplace - the synchronised file is efficiently updated inplace, but will occupy a large amount of disk space.</li> 
+  </ul>
+  <p>VirtSync gives you both for a $50 per server, one-off, licensing fee.</p>
+</article>
+
+<article>
+  <header>
+    <h2>VirtSync for Linux</h2>
+  </header>
+  <p>VirtSync is available for Linux as either an <a href="/virtsync-rpm">.rpm</a> (RedHat, SUSE) or as a <a href="/virtsync-deb">.deb</a> (Ubuntu, Debian).</p>
+</article>
+
+<article>
+  <header>
+    <h2>VirtSync for Mac OSX</h2>
+  </header>
+  <p>VirtSync is available for <a href="/virtsync-osx">OSX</a>.</p>
+</article>
+
+<article>
+  <header>
+    <h2>VirtSync for Microsoft Windows / MinGW</h2>
+  </header>
+  <p>VirtSync is available for <a href="/virtsync-win">Windows XP, Vista and Windows 7</a>.</p>
+</article>
+
+
