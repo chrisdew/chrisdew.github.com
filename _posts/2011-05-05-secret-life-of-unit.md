@@ -16,9 +16,13 @@ It exists in many non-functional languages, but not in plain sight.
 Unit in C bitfields
 -------------------
 int <fieldname> : 3 can represent values 0-7 (unsigned)
+
 int <fieldname> : 2 can represent values 0-3
+
 int <fieldname> : 1 can represent values 0-1
+
 int <fieldname> : 0, if it was valid, could be Unit 
+
 (it's actually overloaded as an alignment operation in C)
 
 Unit is the value which no bits contain.
@@ -35,14 +39,19 @@ Nullable types and references can either have a value of a type (e.g. int) or no
 
 Unit as the type of Null or Void in Statically Typed OOP languages
 ------------------------------------------------------------------
-Functions which return objects implictly return a tagged union of the type and unit.  A Java method with the signature:
+Functions which return objects, implictly return a tagged union of the type and unit.  A Java method with the signature:
 
 public Person findByAddress(String address)
 
-Is implicitly declares as returning either a Person, or Null.  Null has only one value.  Null has a type of Unit.
+It implicitly declares findByAddress as returning either a Person, or Null.  Null has only one value.  Null has a type of Unit.
 
 (The implementation of this tagged union may be a single word, but as the value zero is not available as a valid pointer, it's still theoretically sound.)
 
 The imperative conspiracy to make Unit disappear
 ------------------------------------------------
+For some reason, imperative languages, and even SQL, seem to go to some lengths to make Unit unusable.
+
+In C, you can't have zero length bitfields.
+
+In SQL you can't have zero length bitfields, and you can't declare a column having type of NULL (which would be quite near Unit, if not identical).
 
