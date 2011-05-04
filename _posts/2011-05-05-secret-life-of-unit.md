@@ -35,9 +35,9 @@ If a unique index were placed on a column of type Unit, that table would be cons
 
 NULL has semantics which are too complex and varied to be Unit - but it's a close cousin.
 
-Unit as nullable references
----------------------------
-Nullable types and references can either have a value of a type (e.g. int) or no value at all.  Nullables types are <a href="http://en.wikipedia.org/wiki/Tagged_union">tagged unions</a> of a type and unit. 
+Unit and nullable types
+-----------------------
+Nullable types and references can either have a value of a type (e.g. int) or no value at all.  Nullables types are effectively <a href="http://en.wikipedia.org/wiki/Tagged_union">tagged unions</a> of a type and unit. 
 
 Unit as the type of Null or Void in Statically Typed OOP languages
 ------------------------------------------------------------------
