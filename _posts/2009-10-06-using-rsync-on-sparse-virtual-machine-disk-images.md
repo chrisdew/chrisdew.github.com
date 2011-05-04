@@ -4,6 +4,8 @@ title: Using rsync on sparse Virtual Machine disk images.
 created: 1254830924
 permalink: rsync-vm-sparse-inplace-kvm-vmware.html
 ---
+<strong>Update: see <a href="/virtsync">VirtSync</a> for a better solution.</strong>
+
 <strong>Background</strong>
 
 I have a co-located server for hosting Virtual Machines (KVM and VMWare).  These virtual machines use sparse files as their disk images.  This saves a huge amount of space, without incurring too much of a slowdown - it also takes away the sysadmin headaches of having to add more disk images when a VM outgrows its initial allocation of space.
@@ -37,3 +39,5 @@ So the solution is to create a corresponding, correctly-lengthed, empty, sparse 
 Then <code>rsync --inplace</code> will work as intended, leaving sparse files sparse, and only writing the changed blocks to disk.
 
 If there's some interest on http://www.reddit.com/r/programming/comments/9rb98/using_rsync_on_sparse_virtual_machine_disk_images/  I'll package up my script nicely...
+
+<strong>Update: see <a href="/virtsync">VirtSync</a> for a better solution.</strong>
