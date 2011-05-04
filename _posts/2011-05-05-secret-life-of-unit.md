@@ -30,7 +30,9 @@ Unit is the value which no bits contain.
 Unit in SQL
 -----------
 If a column could have type Unit, that field would be equal for every row.
+
 If a unique index were placed on a column of type Unit, that table would be constrained to having a single row.
+
 NULL has semantics which are too complex and varied to be Unit - but it's a close cousin.
 
 Unit as nullable references
@@ -41,7 +43,7 @@ Unit as the type of Null or Void in Statically Typed OOP languages
 ------------------------------------------------------------------
 Functions which return objects, implictly return a tagged union of the type and unit.  A Java method with the signature:
 
-public Person findByAddress(String address)
+    public Person findByAddress(String address)
 
 It implicitly declares findByAddress as returning either a Person, or Null.  Null has only one value.  Null has a type of Unit.
 
@@ -53,5 +55,5 @@ For some reason, imperative languages, and even SQL, seem to go to some lengths 
 
 In C, you can't have zero length bitfields.
 
-In SQL you can't have zero length bitfields, and you can't declare a column having type of NULL (which would be quite near Unit, if not identical).
+In SQL you can't have zero length bitfields, and you can't declare a column having a type of NULL (which would be quite near Unit, if not identical).
 
