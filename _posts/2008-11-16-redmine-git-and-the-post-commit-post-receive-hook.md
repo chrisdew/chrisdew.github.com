@@ -16,27 +16,26 @@ I then found out that it needed to be a post-receive hook.  This is run whenever
 
 This is my .git/post-receive.  It needed to be chmodded to 755.
 
-<code>
-#!/bin/bash
-#
-# An example hook script for the post-receive event
-#
-# This script is run after receive-pack has accepted a pack and the
-# repository has been updated.  It is passed arguments in through stdin
-# in the form
-#  <oldrev> <newrev> <refname>
-# For example:
-#  aa453216d1b3e49e7f6f98441fa56946ddcd6a20 68f7abf4e6f922807889f52bc043ecd31b79f814 refs/heads/master
-#
-# see contrib/hooks/ for an sample, or uncomment the next line (on debian)
-#
+    #!/bin/bash
+    #
+    # An example hook script for the post-receive event
+    #
+    # This script is run after receive-pack has accepted a pack and the
+    # repository has been updated.  It is passed arguments in through stdin
+    # in the form
+    #  <oldrev> <newrev> <refname>
+    # For example:
+    #  aa453216d1b3e49e7f6f98441fa56946ddcd6a20 68f7abf4e6f922807889f52bc043ecd31b79f814 refs/heads/master
+    #
+    # see contrib/hooks/ for an sample, or uncomment the next line (on debian)
+    #
+    
+    echo "running post-receive hook..."
+    cd /opt/redmine
+    ruby script/runner "Repository.fetch_changesets" -e production
+    
+    
 
-echo "running post-receive hook..."
-cd /opt/redmine
-ruby script/runner "Repository.fetch_changesets" -e production
-
-
-</code>
 Of course, now that I've discovered how easy and useful git hooks are to use, I can start using them for autotomatic testing and building :-)
 
 Although this works, I'm now wondering if it should be a post-update script, rather than a post-receive.  Why is it working as a post-receive?  
