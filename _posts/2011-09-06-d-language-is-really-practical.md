@@ -7,7 +7,7 @@ I'd like to take a minute to thank Walter Bright for creating the <a href="http:
 
 I had a project, which I had previously written in Python, but which I now needed to port to a more runtime-efficient langauge (a single static executable and obfuscated source are also a bonus for a commercial product).
 
-The standard library (for D 2.0) had all the file a directory manipulation functions I needed, easily a rich as Python and an awful lot easier to use than APR or POSIX.
+The standard library (for D 2.0) had all the file a directory manipulation functions I needed, easily as rich as Python and an awful lot easier to use than APR or POSIX.
 
 I had initally attempted the port using C and the Apache Portable Runtime, but I found it hard work after years of Python and Javascript.  I quickly got bogged down in memory pools, string handling and shared state.
 
