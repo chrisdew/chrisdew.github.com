@@ -5,7 +5,7 @@ title: Ludum Dare entry, but I'll take a year to write it.
 
 I'm going to participate the the <a href="http://www.ludumdare.com/compo/2011/09/28/announcing-october-challenge-2011/">Ludum Dare October Challenge</a>.  Unfortunately I have just 3 hours per week for game development.  I don't think there's any chance of meeting the end of the month (12 hours dev), so I'm giving myself a year (150 hours).
 
-The game will be called Anastom, pronounced anAstom, as I have the domain and am not currently using it for anything.
+The game will be called Anastom, pronounced anAStom, as I have the domain and am not currently using it for anything.
 
 It has the following design constraints:
 
