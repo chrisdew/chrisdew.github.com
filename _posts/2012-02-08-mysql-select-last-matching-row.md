@@ -7,11 +7,11 @@ After having to reinvent this query three times, I'm actually blogging it this t
 
 Here's a table:
     CREATE TABLE `foo` (
-      `id` INT(10) NOT NULL AUTO_INCREMENT,
-      `uid` INT(10) NOT NULL,
-      `value` VARCHAR(50) NOT NULL,
-      PRIMARY KEY (`id`),
-      INDEX `uid` (`uid`)
+        `id` INT(10) NOT NULL AUTO_INCREMENT,
+        `uid` INT(10) NOT NULL,
+        `value` VARCHAR(50) NOT NULL,
+        PRIMARY KEY (`id`),
+        INDEX `uid` (`uid`)
     )
 
 containing:
