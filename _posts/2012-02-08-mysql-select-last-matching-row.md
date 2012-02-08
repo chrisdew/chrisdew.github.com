@@ -29,7 +29,7 @@ It can be done with:
     select id, uid, value 
     from foo as a
     where a.id = (select max(id) from foo where uid = a.uid group by uid)
-    group by uid;
+    ;
 
 The above query produces:
     id, uid, value
