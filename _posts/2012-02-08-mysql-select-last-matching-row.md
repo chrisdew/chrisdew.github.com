@@ -6,15 +6,13 @@ title: A MySQL query to find the last matching row(s).
 After having to reinvent this query three times, I'm actually blogging it this time.  It always seems obvious afterwards, but takes me about half and hour to write fron scratch.
 
 Here's a table:
-<code>
-CREATE TABLE `foo` (
-  `id` INT(10) NOT NULL AUTO_INCREMENT,
-  `uid` INT(10) NOT NULL,
-  `value` VARCHAR(50) NOT NULL,
-  PRIMARY KEY (`id`),
-  INDEX `uid` (`uid`)
-)
-</code>
+    CREATE TABLE `foo` (
+      `id` INT(10) NOT NULL AUTO_INCREMENT,
+      `uid` INT(10) NOT NULL,
+      `value` VARCHAR(50) NOT NULL,
+      PRIMARY KEY (`id`),
+      INDEX `uid` (`uid`)
+    )
 
 containing:
 <code>
