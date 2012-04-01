@@ -8,6 +8,8 @@ All the Linux/C error codes are listed below.
 
 I occasionally google C error codes, but always end up grepping through /usr/include to find the answer (on Ubuntu 8.10).  To save myself, and a few others, some time in the future...
 
+http://www.amazon.com/gp/product/0131103628/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=barritechnltd-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0131103628
+
 <strong>/usr/include/asm-generic/errno-base.h</strong>
 
     #ifndef _ASM_GENERIC_ERRNO_BASE_H
