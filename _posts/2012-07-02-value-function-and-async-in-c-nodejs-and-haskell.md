@@ -11,18 +11,42 @@ Obtaining result in a program typically comes from one of three places:
 int res = v;
 {% endhighlight %}
 
+{% highlight python %}
+res = v
+{% endhighlight %}
+
+{% highlight haskell %}
+let res = v
+{% endhighlight %}
+
 2. A function:
 
-<code>
+{% highlight c %}
 int res = fn(v);
-</code>
+{% endhighlight %}
+
+{% highlight python %}
+res = fn(v)
+{% endhighlight %}
+
+{% highlight haskell %}
+let res = v
+{% endhighlight %}
 
 3. An asynchronous function:
 
-<code>
+{% highlight c %}
 int callback(res) { ... }
 async(v, &callback);
-</code>
+{% endhighlight %}
 
+{% highlight python %}
+def callback(res): 
+    ...
+async(v, callback)
+{% endhighlight %}
+
+{% highlight haskell %}
+{% endhighlight %}
 
 
