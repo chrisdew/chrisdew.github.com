@@ -7,9 +7,9 @@ Obtaining result in a program typically comes from one of three places:
 
 1. A variable:
 
-<code>
+{% highlight c %}
 int res = v;
-</code>
+{% endhighlight %}
 
 2. A function:
 
