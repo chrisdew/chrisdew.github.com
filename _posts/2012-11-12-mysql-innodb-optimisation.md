@@ -12,6 +12,6 @@ I just needed to add the line:
     [mysqld]
     innodb_buffer_pool_size = 2G
 
-to /etc/mysql/my.conf
+to /etc/mysql/my.cnf
 
 This reduced the CPU usage from 180% to around 10%.
