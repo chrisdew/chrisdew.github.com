@@ -46,12 +46,12 @@ These groups impact directly on composability of code.
 
 <pre>
     +-----+-----+-----+-----+-----+-----+
-    |     | G1  | G2  | G3a | G3b | G3p |
+    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| G1&nbsp;| G2&nbsp;| G3a | G3b | G3p |
     +-----+-----+-----+-----+-----+-----+
-    | G1  | G1  | G2  | G3a | G3b | G3p |
-    | G2  | G2  | G2  | G3a | G3b | G3p |
-    | G3a | G3a | G3a | G3a |  X  | G3a |
-    | G3b | G3b | G3b |  X  | G3b | G3b |
+    | G1&nbsp;&nbsp;| G1&nbsp;&nbsp;| G2&nbsp;&nbsp;| G3a | G3b | G3p |
+    | G2&nbsp;&nbsp;| G2&nbsp;&nbsp;| G2&nbsp;&nbsp;| G3a | G3b | G3p |
+    | G3a | G3a | G3a | G3a |&nbsp;&nbsp;X&nbsp;&nbsp;| G3a |
+    | G3b | G3b | G3b |&nbsp;&nbsp;X&nbsp;&nbsp;| G3b | G3b |
     | G3p | G3p | G3p | G3a | G3b | G3p |
     +-----+-----+-----+-----+-----+-----+
 </pre>
@@ -81,6 +81,6 @@ There is also the difference between a list of values, and an (asynchronous/bloc
 e.g. For a 'sum' function, intermediate sums of a stream may be required, when the values have paused for some time.  (Although that could also be valid for huge lists; think of updating a progress bar.) 
 
 P.S.
-----`
+----
 
 I am aware of <a href="http://stackoverflow.com/questions/10942450/haskell-lists-vs-streams">streams</a> in Haskell and <a href="http://en.wikipedia.org/wiki/Functional_reactive_programming">Functional Reactive Programming</a> though not much of practical use seems to have made it out yet.
