@@ -34,7 +34,7 @@ Group 3p, polling IO*
 ---------------------
     int ret = pollingread(&a, args...); // does not block, but may not yeild a new value
 
-(* I am unsure of the validity of including G3p, as it does not yield the sought type `a`, only a `Maybe a` (to use Haskell terminology).
+(* I am unsure of the validity of including G3p, as it does not yield the sought type `a`, only a `Maybe a` - to use Haskell terminology).
 
 Note that many of these methods of obtaining a value look identical, even though they are in diferent groups.  This leads to API confusion in many languages.  New languages should make things that behave differently look different. 
 
@@ -44,13 +44,13 @@ Program flow constructs, such as `if` and `for` apply only to those values outsi
 
 These groups impact directly on composability of code.
 
-<table>
+<table padding="3px">
   <tr><th></th><th>G1</th><th>G2</th><th>G3a</th><th>G3b</th><th>G3p</th></tr>
   <tr><th>G1</th><td>G1</td><td>G2</td><td>G3a</td><td>G3b</td><td>G3p</td></tr>
   <tr><th>G2</th><td>G2</td><td>G2</td><td>G3a</td><td>G3b</td><td>G3p</td></tr>
-  <tr><th>G3a</th><td>G3a</td><td>G3a</td><td>G3a</td><td>X</td><td>G3p</td></tr>
+  <tr><th>G3a</th><td>G3a</td><td>G3a</td><td>G3a</td><td>X</td><td>G3a</td></tr>
   <tr><th>G3b</th><td>G3b</td><td>G3b</td><td>X</td><td>G3b</td><td>G3b</td></tr>
-  <tr><th>G3p</th><td>G3p</td><td>G3p</td><td>G3p</td><td>G3b</td><td>G3p</td></tr>
+  <tr><th>G3p</th><td>G3p</td><td>G3p</td><td>G3a</td><td>G3b</td><td>G3p</td></tr>
 </table>
 
 (X marks composition as impossible.)
