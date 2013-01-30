@@ -34,7 +34,7 @@ Group 3p, polling IO*
 ---------------------
     int ret = pollingread(&a, args...); // does not block, but may not yeild a new value
 
-(I am unsure of the validity of including G3p, as it does not yield the sought type `a`, only a `Maybe a` (to use Haskell terminology).
+(* I am unsure of the validity of including G3p, as it does not yield the sought type `a`, only a `Maybe a` (to use Haskell terminology).
 
 Note that many of these methods of obtaining a value look identical, even though they are in diferent groups.  This leads to API confusion in many languages.  New languages should make things that behave differently look different. 
 
