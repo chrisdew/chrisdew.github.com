@@ -44,14 +44,15 @@ Program flow constructs, such as `if` and `for` apply only to those values outsi
 
 These groups impact directly on composability of code.
 
-<table padding="3px">
-  <tr><th></th><th>G1</th><th>G2</th><th>G3a</th><th>G3b</th><th>G3p</th></tr>
-  <tr><th>G1</th><td>G1</td><td>G2</td><td>G3a</td><td>G3b</td><td>G3p</td></tr>
-  <tr><th>G2</th><td>G2</td><td>G2</td><td>G3a</td><td>G3b</td><td>G3p</td></tr>
-  <tr><th>G3a</th><td>G3a</td><td>G3a</td><td>G3a</td><td>X</td><td>G3a</td></tr>
-  <tr><th>G3b</th><td>G3b</td><td>G3b</td><td>X</td><td>G3b</td><td>G3b</td></tr>
-  <tr><th>G3p</th><td>G3p</td><td>G3p</td><td>G3a</td><td>G3b</td><td>G3p</td></tr>
-</table>
+        +-----+-----+-----+-----+-----+
+        | G1  | G2  | G3a | G3b | G3p |
+  +-----+-----+-----+-----+-----+-----+
+  | G1  | G1  | G2  | G3a | G3b | G3p |
+  | G2  | G2  | G2  | G3a | G3b | G3p |
+  | G3a | G3a | G3a | G3a |  X  | G3a |
+  | G3b | G3b | G3b |  X  | G3b | G3b |
+  | G3p | G3p | G3p | G3a | G3b | G3p |
+  +-----+-----+-----+-----+-----+-----+
 
 (X marks composition as impossible.)
 
