@@ -46,7 +46,7 @@ These groups impact directly on composability of code.
 
 <pre>
     +-----+-----+-----+-----+-----+-----+
-    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| G1&nbsp;| G2&nbsp;| G3a | G3b | G3p |
+    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| G1&nbsp;&nbsp;| G2&nbsp;&nbsp;| G3a | G3b | G3p |
     +-----+-----+-----+-----+-----+-----+
     | G1&nbsp;&nbsp;| G1&nbsp;&nbsp;| G2&nbsp;&nbsp;| G3a | G3b | G3p |
     | G2&nbsp;&nbsp;| G2&nbsp;&nbsp;| G2&nbsp;&nbsp;| G3a | G3b | G3p |
