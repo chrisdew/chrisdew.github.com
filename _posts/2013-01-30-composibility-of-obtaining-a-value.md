@@ -44,6 +44,7 @@ Program flow constructs, such as `if` and `for` apply only to those values outsi
 
 These groups impact directly on composability of code.
 
+<pre>
     +-----+-----+-----+-----+-----+-----+
     |     | G1  | G2  | G3a | G3b | G3p |
     +-----+-----+-----+-----+-----+-----+
@@ -53,6 +54,7 @@ These groups impact directly on composability of code.
     | G3b | G3b | G3b |  X  | G3b | G3b |
     | G3p | G3p | G3p | G3a | G3b | G3p |
     +-----+-----+-----+-----+-----+-----+
+</pre>
 
 (X marks composition as impossible.)
 
